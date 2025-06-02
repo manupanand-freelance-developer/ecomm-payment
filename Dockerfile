@@ -6,5 +6,5 @@ RUN     mkdir /app
 WORKDIR /app 
 COPY    payment.ini payment.py rabbitmq.py requirements.txt run.sh  /app/
 RUN     pip install -r requirements.txt
-ENTRYPOINT [ "bash","run.sh" ]
+ENTRYPOINT [ "bash","./run.sh" ]
 
