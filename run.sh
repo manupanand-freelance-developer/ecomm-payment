@@ -20,16 +20,16 @@ if [ -z "${USER_PORT}" ]; then
 fi
 
 
-if [ -z "${APMQ_HOST}" ]; then
-    echo Input APMQ_HOST is missing
+if [ -z "${AMQP_HOST}" ]; then
+    echo Input AMQP_HOST is missing
     exit 1
 fi
-if [ -z "${APMQ_USER}" ]; then
-    echo Input APMQ_USER is missing
+if [ -z "${AMQP_USER}" ]; then
+    echo Input AMQP_USER is missing
     exit 1
 fi
-if [ -z "${APMQ_PASS}" ]; then
-    echo Input APMQ_PASS is missing
+if [ -z "${AMQP_PASS}" ]; then
+    echo Input AMQP_PASS is missing
     exit 1
 fi
 
